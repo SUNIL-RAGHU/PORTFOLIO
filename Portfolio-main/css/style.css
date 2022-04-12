@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family:verdana,sans-serif;
+}
+
+.heading-name{
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 10%;
+    font-size: 4.7rem;
+    color: rgb(57, 91, 243);
+}
+
+h2{
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 1;
+}
+
+
+div{
+    background-color: #c2e9fb;
+    
+}
+
+.top-container{
+    padding-top: 2%;
+    background-color:#c2e9fb;
+    position: relative;
+    
+}
+
+.middle-container{
+    margin-top: 0%;
+   background-color: #c2e9fb;
+}
+
+.bottom-container{
+    background-color: #c2e9fb;
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skills-sec{
+    width: 50%;
+    float: left;
+
+}
+
+.skill-2{
+    width: 40%;
+    float:right;
+    margin-left: 5%;
+    border-radius: 0%;
+    filter: brightness(150%)
+    
+}
+
+.image-top{
+    position: relative;
+    height: 30%;
+    width:15%;
+    top: 20%;
+}
+
+.image-bottom{
+    position: relative;
+    height: 50%;
+    width: 30%;
+    left: 1%;
+}
+
+.profile-pic{
+    position: relative;
+    left: 2%;
+    height: 50%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.heading-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    padding-top: 5%;
+    font-size: 4.7rem;
+    color: rgb(21, 62, 196);
+}
+
+.footer-link{
+    outline: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .image-bottom{
+       position: relative;
+      height: 75%;
+      width: 60%;
+   }
+
+   .profile-pic{
+       position: relative;
+       height: 50%;
+       width: 75%;
+   }
+
+   .skills-sec{
+       position: relative;
+       height: 80%;
+       width: 150%;
+       right: 30%;
+   }
+
+   .skill-2{
+       position: relative;
+       height: 100%;
+       width: 100%;
+       top: 10%;
+       margin: 0;
+   }
+
+   .skill-row{
+       margin-top: 0;
+       margin-bottom: 0;
+   }
+  }
